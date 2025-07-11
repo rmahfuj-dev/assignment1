@@ -206,6 +206,9 @@ section.review .review-container .user-review .reviewer .reviewer-details .revie
   color: #B3B3B3;
 }
 
+section.conference {
+  margin-bottom: 80px;
+}
 section.conference .conference-container {
   max-width: 1140px;
   margin: 0 auto;
@@ -245,4 +248,55 @@ section.conference .conference-container figure img {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 48px;
+}
+
+section.contact .contact-container {
+  padding: 71px 0;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.contact .contact-container .contact-heading {
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 120%;
+  font-family: "Raleway", sans-serif;
+}
+section.contact .contact-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+section.contact .contact-container form .form-item {
+  display: flex;
+  flex-direction: column;
+}
+section.contact .contact-container form label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+section.contact .contact-container form input {
+  background-color: white;
+  padding: 20px 32px;
+  border-radius: 10px;
+  border: none;
+  min-width: 497px;
+}
+section.contact .contact-container form input::-moz-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 150px;
+}
+section.contact .contact-container form input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 150px;
+}
+section.contact .contact-container form button {
+  padding: 19px 110px;
 }/*# sourceMappingURL=style.css.map */
