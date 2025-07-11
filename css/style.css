@@ -12,6 +12,7 @@
   font-weight: 700;
   font-size: 1rem;
   border-radius: 10px;
+  font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -50,4 +51,40 @@ header .header-container .banner .banner-heading {
   font-family: "Raleway", sans-serif;
   font-size: 65px;
   font-weight: 700;
+}
+
+section.action {
+  margin: 130px 0;
+  font-family: "Raleway", sans-serif;
+}
+section.action .action-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.action .action-container .action-text {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: flex-start;
+}
+section.action .action-container .action-text .action-heading {
+  font-size: 42px;
+  font-weight: 700;
+}
+section.action .action-container .action-text .action-description {
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.368627451);
+  line-height: 30px;
+}
+section.action .action-container .action-image {
+  display: flex;
+  justify-content: flex-end;
+}
+section.action .action-container .action-image img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
 }/*# sourceMappingURL=style.css.map */
