@@ -91,6 +91,8 @@ section.action .action-container .action-image {
 section.action .action-container .action-image img {
   width: 403px;
   height: 328px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 48px;
 }
 
@@ -202,4 +204,45 @@ section.review .review-container .user-review .reviewer .reviewer-details .revie
   font-size: 16px;
   line-height: 140%;
   color: #B3B3B3;
+}
+
+section.conference .conference-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 71px 150px;
+  background-color: white;
+  border-radius: 14px;
+}
+section.conference .conference-container figure {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+section.conference .conference-container figure figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+section.conference .conference-container figure figcaption .conf-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+}
+section.conference .conference-container figure figcaption .conf-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.5);
+}
+section.conference .conference-container figure img {
+  width: 840px;
+  height: 365px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 48px;
 }/*# sourceMappingURL=style.css.map */
