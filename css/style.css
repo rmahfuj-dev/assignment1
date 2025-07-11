@@ -18,6 +18,7 @@ body {
   font-size: 1rem;
   border-radius: 10px;
   font-family: "Raleway", sans-serif;
+  cursor: pointer;
 }
 
 header {
@@ -299,4 +300,50 @@ section.contact .contact-container form input::placeholder {
 }
 section.contact .contact-container form button {
   padding: 19px 110px;
+}
+
+footer {
+  background-color: white;
+  padding: 100px 0;
+}
+footer .footer-container {
+  max-width: 531px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+footer .footer-container .footer-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+footer .footer-container .footer-text .footer-logo {
+  color: #4E47FF;
+  font-size: 100px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+footer .footer-container .footer-text .contact-text {
+  font-size: 16px;
+  line-height: 150%;
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+footer .footer-container .footer-nav {
+  display: flex;
+  gap: 48px;
+}
+footer .footer-container .footer-nav li {
+  list-style: none;
+}
+footer .footer-container .footer-nav li a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
 }/*# sourceMappingURL=style.css.map */
