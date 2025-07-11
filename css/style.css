@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f5f8ff;
+  color: #1E1E1E;
+}
+
 .btn {
   border: none;
   padding: 12px 36px;
@@ -121,4 +126,80 @@ section.productive-user .user-container .stat-boxes .stat-box .stat-number {
 section.productive-user .user-container .stat-boxes .stat-box .stat-label {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.3137254902);
+}
+
+section.review {
+  margin: 120px 0;
+}
+section.review .review-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+}
+section.review .review-container .review-heading {
+  font-size: 42px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+section.review .review-container .user-reviews {
+  display: flex;
+  gap: 20px;
+}
+section.review .review-container .user-review {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: "Inter", sans-serif;
+  border-radius: 14px;
+}
+section.review .review-container .user-review ul.rating-icons {
+  display: flex;
+  gap: 4px;
+}
+section.review .review-container .user-review ul.rating-icons li {
+  list-style: none;
+}
+section.review .review-container .user-review ul.rating-icons li img {
+  width: 16.67px;
+  height: 15.85px;
+}
+section.review .review-container .user-review .review-header {
+  font-size: 24px;
+  font-weight: 600;
+}
+section.review .review-container .user-review .review-text {
+  font-size: 1rem;
+  line-height: 140%;
+}
+section.review .review-container .user-review .reviewer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+section.review .review-container .user-review .reviewer .reviwer-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+section.review .review-container .user-review .reviewer .reviewer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+section.review .review-container .user-review .reviewer .reviewer-details .reviewer-name {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  color: #757575;
+}
+section.review .review-container .user-review .reviewer .reviewer-details .review-date {
+  font-size: 16px;
+  line-height: 140%;
+  color: #B3B3B3;
 }/*# sourceMappingURL=style.css.map */
